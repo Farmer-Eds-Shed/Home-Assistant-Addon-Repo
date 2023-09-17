@@ -2,6 +2,7 @@ name: "NTFY"
 description: "NTFY notification server addon"
 version: "0.0.1"
 slug: "ntfy"
+url: "https://github.com/Farmer-Eds-Shed/Home-Assistant-Addon-Repo"
 init: false
 arch:
   - aarch64
