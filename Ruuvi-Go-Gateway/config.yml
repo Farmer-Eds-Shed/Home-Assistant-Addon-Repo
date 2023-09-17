@@ -2,6 +2,7 @@ name: "Ruuvi"
 description: "Ruuvi Go Gateway addon"
 version: "0.0.1"
 slug: "ruuvi"
+url: "https://github.com/Farmer-Eds-Shed/Home-Assistant-Addon-Repo"
 init: false
 host_network: true
 host_dbus: true
