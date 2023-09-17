@@ -18,7 +18,7 @@ arch:
   - i386
 options:
   gw_mac: "AB:AB:00:00:00:20"
-  broker_url: ""
+  broker_url: "tcp://172.17.0.1:1883"
   user_name: ""
   password: ""
 schema:
