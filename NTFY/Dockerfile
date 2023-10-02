@@ -1,7 +1,4 @@
 FROM binwiederhier/ntfy
-
 EXPOSE 80/tcp
 ENTRYPOINT ["ntfy", "serve"]
-
-
-
+CMD ["--log-level", "warn"]
