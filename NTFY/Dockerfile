@@ -1,3 +1,4 @@
 FROM binwiederhier/ntfy
 EXPOSE 80/tcp
-ENTRYPOINT ["ntfy", "serve", "--log-level", "warn"]
+COPY server.yml /etc/ntfy/server.yml
+ENTRYPOINT ["ntfy", "serve"]
