@@ -1,4 +1,3 @@
 FROM binwiederhier/ntfy
 EXPOSE 80/tcp
-ENTRYPOINT ["ntfy", "serve"]
-CMD ["--log-level", "warn"]
+ENTRYPOINT ["ntfy", "serve", "--log-level", "warn"]
