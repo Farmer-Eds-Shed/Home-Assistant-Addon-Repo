@@ -2,7 +2,7 @@
 gw_mac: GW_MAC
 
 # Whether to include all advertisements (true) or just those from RuuviTags (false)
-all_advertisements: true
+all_advertisements: false
 
 # HCI device index for the bluetooth adapter to use. 0 by default, which should correspond to the hci0 device
 hci_index: 0
